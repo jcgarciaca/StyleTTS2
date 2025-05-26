@@ -74,6 +74,8 @@ data_params:
 **6. Start training**
 ```bash
 python train.py
+CUDA_VISIBLE_DEVICES=1 python train.py
+tensorboard --logdir=. --host=0.0.0.0 --port=6010
 ```
 
 ## Disclaimer  
